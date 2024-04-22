@@ -5,6 +5,6 @@ Adjunto imagenes del formulario y las tablas
 
 ![FOTO!](FORMULARIO.png)
 
-![FOTO!](FORMULARIO 2.png)
+![FOTO!](FORMULARIO2.png)
 
 ![FOTO!](tablas.png)
