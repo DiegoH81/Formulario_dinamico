@@ -9,3 +9,4 @@ Adjunto imagenes del formulario y las tablas
 
 ![FOTO!](tablas.png)
 
+![FOTO!](FORMULARIO_GENERADO.png)
