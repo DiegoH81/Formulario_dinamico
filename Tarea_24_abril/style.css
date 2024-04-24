@@ -2,10 +2,6 @@ body
 {
     background: linear-gradient(180deg, rgba(255,175,59,1) 0%, rgba(255,114,19,1) 100%);
 }
-h1
-{
-    text-align: center;
-}
 #container
 {
     text-align: center;
@@ -115,7 +111,6 @@ h1
 {
     font-size: 35px;
     font-weight: 800;
-    
 }
 #container h2
 {
