@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script defer src="main.js"></script>
+    <title>Tarea</title>
+</head>
+<body>
+    <div id="container">
+        <form id="formulario" action="procesar.php" method="post">
+            <h1>Formulario</h1>
+            <span class="texto_bajo_formulario">Llene los datos cuidadosamente</span>
+            <h2>Informacion Personal</h2>
+            <h3>Nombre</h3>
+            <input type="text" class="inputs" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <h3>Apellido</h3>
+            <input type="text" class="inputs" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            <h3>Dirección</h3>
+            <input type="text" class="inputs" name="direccion" id="direccion" placeholder="Ingrese su direccion" required>
+            <h3>E-mail</h3>
+            <input type="text" class="inputs" name="e-mail" id="e-mail" placeholder="Ingrese su e-mail" required>
+            
+            
+            <div id="texto_dinamico">
+                <h3>Experiencia laboral <span class="aclaraciones"> (MAXIMO 3)</span></h3>
+                <a href="#" class="add_button" id="add_trabajos">+</a>
+            </div>
+
+            <div id="numero_de_trabajos">
+            </div>
+
+            <div id="texto_dinamico">
+                <h3>Formación academica <span class="aclaraciones">(MAXIMO 3)</span></h3>
+                <a href="#" class="add_button" id="add_formacion">+</a>
+            </div>
+            <div id="numero_formacion">
+            </div>
+
+            <div id="texto_dinamico">
+                <h3>Idiomas <span class="aclaraciones"> (MAXIMO 4)</span></h3>
+                <a href="#" class="add_button" id="add_idiomas">+</a>
+            </div>
+
+            <div id="numero_idiomas">
+            </div>
+            <div id="texto_dinamico">
+                <h3>Aptitudes <span class="aclaraciones"> (MAXIMO 5)</span></h3>
+                <a href="#" class="add_button" id="add_aptitudes">+</a>
+            </div>
+
+            <div id="numero_aptitudes">
+            </div>
+            <input type="submit" class="button" value="Enviar" name="registro">
+        </form>
+    </div>
+</body>
+</html>

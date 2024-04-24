@@ -1,0 +1,119 @@
+#container
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#parent
+{
+  display: flex;
+}
+#narrow
+{
+  width: 300px;
+  background: #F2F2F2;
+  /* Just so it's visible */
+}
+#wide
+{
+  flex: 1;
+  /* Grow to rest of container */
+  background: white;
+  /* Just so it's visible */
+}
+#header
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  background-color: #585858;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#header-text
+{
+  text-align: center;
+}
+#wide-container
+{
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#narrow-container
+{
+  padding-top: 30px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#rounded-image
+{
+  border-radius: 70%;
+  margin-right: 50px;
+}
+.nombre
+{
+  font-size: 80px;
+  font-weight: 320;
+  color: white;
+}
+.posicion
+{
+  font-size: 40px;
+  font-weight: 320;
+  color: #858585;
+}
+.year
+{
+  color: grey;
+}
+.ciudad
+{
+  font-style: italic;
+}
+h1
+{
+  font-size: xx-large;
+  margin: 0;
+}
+h2
+{
+  font-size: x-large;
+  margin: 0;
+}
+h3
+{
+  font-size: large;
+  margin: 0;
+}
+hr
+{
+  height: 2px;
+  display: block;
+  background-color: black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+p
+{
+  margin-top: 0.5cm;
+  font-weight: 600;
+  font-size: large;
+}
+li
+{
+  font-weight: 500;
+  font-size: medium;
+}
+body
+{
+  background-color: black;
+}
